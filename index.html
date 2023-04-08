@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/style.css">
+        <script src="script.js"></script>
 
-    <title>HOME - GULLIVER TRAVELLER</title>
+    <title>Onde se Hospedar</title>
   </head>
   <body>
 
@@ -76,14 +77,15 @@
 
   <!-- conteudo cards -->
 
-  <h1>Explore com o Gulliver</h1>
+  <h1>Encontre sua próxima hospedagem</h1>
+  <h2>Hostéis sugeridos</h2>
 
 
   <div class="conteudo">
   <div class="card">
     <img src="./Images/exemple.svg" class="card-img-top p-5" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Cenário 1</h5>
+      <h5 class="card-title">Hotél 1</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-primary">Saiba mais</a>
     </div>
@@ -92,7 +94,7 @@
   <div class="card">
     <img src="./Images/exemple.svg" class="card-img-top p-5" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Cenário 2</h5>
+      <h5 class="card-title">Hotél 2</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-primary">Saiba mais</a>
     </div>
@@ -101,7 +103,7 @@
   <div class="card">
     <img src="./Images/exemple.svg" class="card-img-top p-5" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Cenário 3</h5>
+      <h5 class="card-title">Hotél 3</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-primary">Saiba mais</a>
     </div>
@@ -110,17 +112,7 @@
   <div class="card">
     <img src="./Images/exemple.svg" class="card-img-top p-5" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Cenário 4</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Saiba mais</a>
-    </div>
-  </div>
-
-
-  <div class="card">
-    <img src="./Images/exemple.svg" class="card-img-top p-5" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Cenário 5</h5>
+      <h5 class="card-title">Hotél 4</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-primary">Saiba mais</a>
     </div>
@@ -130,7 +122,17 @@
   <div class="card">
     <img src="./Images/exemple.svg" class="card-img-top p-5" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Cenário 6</h5>
+      <h5 class="card-title">Hotél 5</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Saiba mais</a>
+    </div>
+  </div>
+
+
+  <div class="card">
+    <img src="./Images/exemple.svg" class="card-img-top p-5" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Hotél 6</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-primary">Saiba mais</a>
     </div>
@@ -138,6 +140,13 @@
 
 </div>
 <!-- Fim dos cards -->
+
+<h1>Sua localização</h1>
+
+<div class="api">
+<div id="coordenadas"></div>
+<div id="mapa"></div>
+</div>
 
 
 <footer class="rodape">
